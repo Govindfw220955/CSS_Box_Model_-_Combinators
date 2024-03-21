@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* change the color of background */
+        body {
+            background-color: teal;
+        }
+
+        /* adjust the display of body and the container  */
+        .container {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        /* Make all cards size same for best performance  */
+        .card {
+            width: 200px;
+            height: 300px;
+            border-radius: 5%;
+            border: 2px solid #ccc;
+            transition: opacity 0.3s ease;
+        }
+       
+        /* Apply the hover on all cards  */
+        .card:hover {
+            opacity: 0.9;
+        }
+
+        /* Reduce the opacity of all non hovering cards for the best visibality of hovering card */
+        .container:hover .card:not(:hover){
+            opacity: 0.3;
+        }
+
+       </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- card 1 -->
+        <div class="card"><img src="./imgs/card1.png" alt=""></div>
+        <!-- card 2 -->
+        <div class="card"><img src="./imgs/card2.png" alt=""></div>
+        <!-- card 3 -->
+        <div class="card"><img src="./imgs/card3.png" alt=""></div>
+        <!-- card 4 -->
+        <div class="card"><img src="./imgs/card4.png" alt=""></div>
+    </div>
+</body>
+
+</html>

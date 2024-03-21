@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <style>
+        .header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #fedfe5;
+            font-family: "Open Sans", sans-serif;
+            font-weight: 600;
+            font-size: 18px;
+        }
+
+        .header p span button {
+            border: 2px;
+            background-color: #ed0331;
+            color: #ffffff;
+            border-radius: 8px;
+            font-size: 16px;
+            font-family: "Open Sans", sans-serif;
+            font-weight: 600;
+            margin-left: .5rem;
+            padding: .4rem;
+
+        }
+
+        .header p span button:hover {
+            background-color: #cc032a;
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid lightgrey;
+            padding-bottom: 1%;
+            padding-top: 1%;
+            font-family: "Open Sans", sans-serif;
+        }
+
+        .navbar #masai a img{
+            margin-left: 1rem;
+        }
+
+        .navbar #courses{
+            font-size: 14px;
+            line-height: 21px;
+            color: #000000;
+            font-weight: 600;
+            padding-left: 15rem;
+            align-self: start;
+            justify-items: center;
+        }
+
+        
+        .navbar #courses p span{
+            display:flexbox;
+            margin-left: 1rem;
+            justify-content: center;
+            border: 0px;
+        }
+
+        .navbar #courses p span button{
+            border: 0;
+            background-color: #ffffff;
+            font-size: 14px;
+            line-height: 21px;
+            color: #000000;
+            font-weight: 600;
+            font-family: "Open Sans", sans-serif;
+            text-transform: uppercase;
+        }
+
+        .navbar #courses p span button a{
+            text-decoration: none;
+            color: #000000;
+            
+        }
+        .navbar #courses p span button a:hover{
+            color: #ed0331;
+            
+        }
+
+        .navbar #refer{
+            font-size: 14px;
+            line-height: 21px;
+            color: #000000;
+            font-weight: 600;
+            padding-left: 10rem;
+            align-self: start;
+        }
+
+        .navbar #refer p{
+            margin-right: 4rem;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .navbar #refer #c a{
+            border: 0;
+            margin-left: 1rem;
+            padding: 0.8rem;
+            background-color: #e5feff;
+            border-radius: 10%;
+            text-decoration: none;
+            color: #6e71cc;
+            margin-right: 1rem;
+            font-family: Open Sans", sans-serif;
+        }
+
+        .navbar #refer #b a{
+            border: 1px solid #ed0331;
+            padding: 0.8rem;
+            background-color: #ffffff;
+            border-radius: 10%;
+            text-decoration: none;
+            color: #ed0331;
+            margin-right: 2rem;
+            font-family: Open Sans", sans-serif;
+        }
+
+        .navbar #refer #c a:hover{
+            background-color: #cfe9ee;
+        }
+
+        .navbar #refer #b a:hover{
+            background-color: #fedfe5;
+        }
+        .main{
+            margin-inline: 8%;
+            margin-block: 2%;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .main #info h1{
+            font-family: "Poppins", sans-serif;
+            font-size: 48px;
+            font-weight: 800;
+            color: #6e71cc;
+            line-height: 62px;
+            margin-right: 2%;
+        }
+        .main #info p{
+            font-family: "Poppins", sans-serif;
+            font-size: 24px;
+            font-weight: 700;
+            color: #000000;
+            line-height: 32px;
+        }
+        .main #info button{
+            border: 1px solid red;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 27px;
+            color: #ffffff;
+            background-color: #ed0331;
+            padding: 1vh;
+            padding-inline: 5%;
+            font-family: "Open Sans", sans-serif;
+        }
+        .main #imag img{
+            width: 600px;
+        }
+
+        footer{
+            background-color: #3470e4;
+        }
+
+        footer #first p{
+            font-family: "Poppins", sans-serif;
+            font-size: 34px;
+            font-weight: 700;
+            color: #ffffff;
+            line-height: 40px;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 1%;
+            padding-top: 1rem;
+        }
+        footer #second p{
+            font-family: "Poppins", sans-serif;
+            font-size: 15px;
+            font-weight: 600;
+            color: #ffffff;
+            line-height: 24px;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 1%;
+            padding-bottom: 2rem;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <p>
+            Admissions open for our 6th November Batches are open! <span><button>Apply Now</button></span>
+        </p>
+    </div>
+    <div class="navbar">
+        <div id="masai" class="one"><a href="https://www.masaischool.com/"><img src="masai_logo.png" alt=""></a></div>
+
+        <div id="courses" class="two">
+            <p><span><button><a href= "https://www.masaischool.com/courses">courses</a></button></span> 
+                <span><button><a href="https://www.masaischool.com/fees">fees</a></button></span> 
+                <span><button><a href="https://www.masaischool.com/events">events</a></button></span> 
+                <span><button><a href="https://www.masaischool.com/learn">learn</a></button></span> 
+                <span><button><a href="https://www.masaischool.com/success-stories">success stories</a></button></span> 
+                <span><button><a href="https://www.masaischool.com/hire-masai-graduates">hire from us</a></button></span>
+            </p>
+        </div>
+
+        <div id="refer" class="three">
+            <p><span id="c"></id><a href="https://www.masaischool.com/referral">REFER & EARN</a></span> 
+                <span id="b"><a href="https://www.masaischool.com/">SIGN UP</a></span></p>
+        </div>
+    </div>
+    <div class="main">
+        <div id="info">
+            <h1>Proof that dreams do come true</h1>
+            <p>A testament to what’s possible</p>
+            <button>Apply Now</button>
+        </div>
+        <div id="imag">
+            <img src="/CSS_Box_Model_-_Combinators/success.png" alt="">
+        </div>
+    </div>
+    <footer>
+        <div id="first"> <p>How is Masai Creating an Impact?</p> </div>
+        <div id="second"> <p>4000+ students placed across 1000+ companies</p> </div>
+    </footer>
+</body>
+
+</html>
